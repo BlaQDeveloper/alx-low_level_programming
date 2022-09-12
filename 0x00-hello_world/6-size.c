@@ -15,10 +15,10 @@ int main(void)
 	long long int d;
 	float e;
 
-	fprintf(stderr, "Size of a char: %ld byte(s)\n", sizeof(a));
-	fprintf(stderr, "Size of an int: %ld byte(s)\n", sizeof(b));
-	fprintf(stderr, "Size of long int: %ld byte(s)\n", sizeof(c));
-	fprintf(stderr, "Size of long long int: %ld byte(s)\n", sizeof(d));
-	fprintf(stderr, "Size of float: %ld byte(s)\n", sizeof(e));
+	fprintf(stderr, "Size of a char: %ld byte(s)\n", (unsigned long)sizeof(a));
+	fprintf(stderr, "Size of an int: %ld byte(s)\n", (unsigned long)sizeof(b));
+	fprintf(stderr, "Size of long int: %ld byte(s)\n", (unsigned long)sizeof(c));
+	fprintf(stderr, "Size of long long int: %ld byte(s)\n", (unsigned long)sizeof(d));
+	fprintf(stderr, "Size of float: %ld byte(s)\n", (unsigned long)sizeof(e));
 	return (0);
 }
