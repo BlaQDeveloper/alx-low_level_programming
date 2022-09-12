@@ -9,16 +9,10 @@
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
-
-	fprintf(stderr, "Size of a char: %ld byte(s)\n", sizeof(a));
-	fprintf(stderr, "Size of an int: %ld byte(s)\n", sizeof(b));
-	fprintf(stderr, "Size of long int: %ld byte(s)\n", sizeof(c));
-	fprintf(stderr, "Size of long long int: %ld byte(s)\n", sizeof(d));
-	fprintf(stderr, "Size of float: %ld byte(s)\n", sizeof(e));
+	printf("Size of a char: %ld byte(s)\n", sizeof(char));
+	printf("Size of an int: %ld byte(s)\n", sizeof(int));
+	printf("Size of long int: %ld byte(s)\n", sizeof(long int));
+	printf("Size of long long int: %ld byte(s)\n", sizeof(long long int));
+	printf("Size of float: %ld byte(s)\n", sizeof(float));
 	return (0);
 }
