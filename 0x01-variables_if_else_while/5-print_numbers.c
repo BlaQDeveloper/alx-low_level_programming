@@ -13,6 +13,6 @@ int main(void)
 	{
 		printf("%i", i);
 	}
-	puts("int\n");
+	printf("int\n");
 	return (0);
 }
