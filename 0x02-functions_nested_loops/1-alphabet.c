@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - function to print abc
- *
- *Description: print function print_alphabet
- *
- * Return: Always 0 (Success)
+ * print_alphabet - function that prints abc
+ * Description: print the alphabet in lowercase.
+ * this print alphabets
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
