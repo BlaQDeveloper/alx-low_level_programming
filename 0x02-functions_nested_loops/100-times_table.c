@@ -18,6 +18,10 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
+				result = digit * mult;
+				if (result <= 99)
+					_putchar(' ');
+
 				if (result <= 9)
 					_putchar(',');
 				if (result >= 100)
