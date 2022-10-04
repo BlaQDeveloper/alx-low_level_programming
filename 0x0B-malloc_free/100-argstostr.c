@@ -19,12 +19,12 @@ int len(char *str)
 }
 
 /**
- * argostostr - function that concatenates all arguments of a program
+ * argstostr - function that concatenates all arguments of a program
  * @ac: count of args passed to the function
  * @av: array of arguments
  * Return: pointer to a new string
  */
-char *argostostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *new_string = NULL;
 	int k = 0, ac = i, j, sum = 0, temp = 0;
@@ -36,7 +36,7 @@ char *argostostr(int ac, char **av)
 	new_string = (char *) malloc(sum + 1);
 	if (new_string == NULL)
 	{
-		while (k > i)
+		while (k < i)
 		{
 			for (j = 0; av[k][j] != '\0'; j++)
 				new_string[j + temp] = av[k][j];
