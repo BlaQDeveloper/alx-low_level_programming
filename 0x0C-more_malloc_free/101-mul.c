@@ -1,12 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
-
-void _print(char *str, int l);
-char *mul(char n, char *num, int num_index, char *dest, int dest_index);
-void init(char *str, int l);
-int check_for_digits(char **av);
-int main(int argc, char *argv[]);
 
 /**
  * _print - moves a string from one place to the left and prints a string
@@ -97,7 +90,8 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0';
+	str[i] = '\0'
+		a;
 }
 /**
  * main - multiply two numbers
