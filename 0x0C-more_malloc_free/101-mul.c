@@ -42,7 +42,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	{
 		mul = (n - '0') * (num[j] - '0') + mulrem;
 		mulrem = mul / 10;
-		add = (desk[k] - '0') + (mul % 10) + addrem;
+		add = (dest[k] - '0') + (mul % 10) + addrem;
 		addrem = add / 10;
 		dest[k] = add % 10 + '0';
 	}
@@ -89,7 +89,7 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0'
+	str[i] = '\0';
 }
 /**
  * main - multiply two numbers
