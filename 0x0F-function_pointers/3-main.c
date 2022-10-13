@@ -8,7 +8,7 @@
  * @argv: array of pointers to arguments
  * Return: Always 0
  */
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 	int a, b, c;
 	int (*f)(int, int);
