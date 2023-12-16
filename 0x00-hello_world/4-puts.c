@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main: using  puts function.
- * Description: using puts function to print out Programming is like building a 
- * multilingual puzzle.
+ * main - prints a string using the puts function.
+ * Description: using puts function 
+ * this program prints Programming is like building a multilingual puzzle.
  * Return: 0
  */
 int main(void)
