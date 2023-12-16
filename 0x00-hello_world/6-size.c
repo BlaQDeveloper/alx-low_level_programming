@@ -3,7 +3,7 @@
  * main - prints the size of data types
  * Description: using the main function
  * this program prints the size of various datatypes
- * Return: 0
+ * Return: 0(Always success)
  */
 int main(void)
 {
