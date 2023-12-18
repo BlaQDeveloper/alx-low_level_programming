@@ -4,7 +4,8 @@
 /**
  * main - print out the last digit
  * Description: using main function
- * this program print the last digit that is greater than five or is zero or less than six not zero
+ * this program print the last digit that is greater than five or
+ * is zero or less than six not zero
  * Return: 0(Always success)
  */
 int main(void)
