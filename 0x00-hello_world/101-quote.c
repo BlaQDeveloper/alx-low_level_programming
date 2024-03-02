@@ -2,13 +2,13 @@
 #include <unistd.h>
 /**
  * main - using fput function to print string
- * 
+ *
  * Description: using the main function
  * prints and that piece of art is useful" - Dora Korpar, 2015-10-19"
  * Return: 1
  */
 int main(void)
 {
-	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
