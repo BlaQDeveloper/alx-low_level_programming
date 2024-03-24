@@ -7,10 +7,11 @@
  */
 int main(void)
 {
-	int number;
+	int number = 48;
 
-	for (number = '0'; number <= '9'; number++)
+	while (number <= 57)
 	{
+		number++;
 		putchar(number);
 	}
 	putchar('\n');
