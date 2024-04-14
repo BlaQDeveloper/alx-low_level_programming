@@ -17,7 +17,7 @@ int main(void)
 		first_digit = (c / 100 + '0');
 		middle_digit = (c / 10 % 10 + '0');
 		last_digit = (c % 10 + '0');
-		
+
 		if ((middle_digit < last_digit) && (first_digit < middle_digit))
 		{
 			putchar(first_digit);
