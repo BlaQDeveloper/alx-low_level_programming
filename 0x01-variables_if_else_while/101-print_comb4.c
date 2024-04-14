@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * main - print the combination of three digits
+ * Description: using the main function
+ * print out combination of three digits
+ * Return: 0(Success)
+ */
 int main(void)
 {
 	int c;
