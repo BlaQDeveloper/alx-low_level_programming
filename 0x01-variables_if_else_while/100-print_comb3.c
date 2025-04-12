@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	int i, j;
+	int first_digit, second_digit;
 
-	for (i = 0; i < 9; i++)
+	for (first_digit = 0; first_digit < 9; first_digit++)
 	{
-		for (j = i + 1; j <= 9; j++)
+		for (second_digit = first_digit + 1; second_digit <= 9; second_digit++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i != 8)
+			putchar(first_digit + '0');
+			putchar(second_digit + '0');
+			if (first_digit != 8)
 			{
 				putchar(',');
 				putchar(' ');
@@ -24,3 +24,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
